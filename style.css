@@ -1,0 +1,67 @@
+nav{
+    display: flex;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.NavButton{
+    width:25%;
+    background-color:rgb(41, 37, 37);
+    text-align:center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+
+
+}
+
+.NavButton:hover{
+    width:25%;
+    background-color:rgb(75, 68, 68);
+    text-align: center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+
+}
+
+.NavButton:active{
+    width:25%;
+    background-color:rgb(121, 108, 108);
+    text-align: center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+}
+
+.DropDown{
+    width:25%;
+    background-color:rgb(41, 37, 37);
+    text-align:center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+
+}
+
+.DropDown-content{
+    display:none;
+}
+
+.DropDown:hover .DropDown-content{
+    display:block;
+
+}
+
+.DropDown:hover .DropDown-content .NavButton:hover{
+    background-color:rgb(75, 68, 68);
+    text-align: center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+}
