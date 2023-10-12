@@ -1,8 +1,29 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgb(29, 26, 26),rgb(77, 74, 74) );
+    color:rgb(153, 158, 163);
+}
+header{
+    display: flex;
+}
+
+h1{
+    color:rgb(153, 158, 163);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3%;
+}
+
 nav{
     display: flex;
 
 }
 
+li{
+    text-decoration: none;
+    list-style: none;
+}
 a:link{
     text-decoration: none;
     color: inherit;
@@ -13,9 +34,15 @@ a:visited{
     color: inherit;
 }
 
+footer{
+    background-color: rgb(29, 26, 26);;
+    text-size-adjust: medium;
+    color:rgb(202, 205, 207);
+    margin-top: auto;
+}
 
 .NavButton{
-    width:25%;
+    width:26%;
     background-color:rgb(41, 37, 37);
     text-align:center;
     color:rgb(153, 158, 163);
@@ -77,4 +104,9 @@ a:visited{
     height: fit-content;
     padding: 2px;
     box-sizing:border-box;
+}
+
+.Linked{
+    text-decoration: underline;
+    color: inherit;
 }
