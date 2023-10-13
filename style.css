@@ -5,13 +5,13 @@ body{
     background: linear-gradient(180deg, rgb(29, 26, 26),rgb(54, 52, 52) );
     color:rgb(153, 158, 163);
     margin:0px;
-    min-width: 960px;
+    overflow:none;
 }
 
 main{
     padding-left: 10%;
     padding-right: 10%;
-    
+    margin-bottom: 3%;
     
     
 }
@@ -32,6 +32,7 @@ h3{
 
 .Centering{
     text-align: center;
+    align-content: center ;
 }
 header{
     display: flex;
@@ -90,6 +91,9 @@ footer{
     color:rgb(153, 158, 163);
     height: fit-content;
     padding:2px;
+    border-color: rgb(43, 43, 43);
+    border-width:1px;
+    border-style: solid;
 
 }
 
@@ -115,6 +119,19 @@ footer{
 .DropDown{
     width:25%;
     background-color:rgb(41, 37, 37);
+    text-align:center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+    padding:2px;
+    position:relative;
+    border-color: rgb(43, 43, 43);
+    border-width:1px;
+    border-style: solid;
+}
+
+.DropDown:hover{
+    width:25%;
+    background-color:rgb(75, 68, 68);
     text-align:center;
     color:rgb(153, 158, 163);
     height: fit-content;
