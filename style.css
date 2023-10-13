@@ -2,8 +2,9 @@ body{
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-    background: linear-gradient(180deg, rgb(29, 26, 26),rgb(77, 74, 74) );
+    background: linear-gradient(180deg, rgb(29, 26, 26),rgb(54, 52, 52) );
     color:rgb(153, 158, 163);
+    margin:0px;
 }
 
 main{
@@ -14,6 +15,19 @@ main{
     
 }
 
+h2{
+    font-display: bold;
+    font-size: xx-large;
+    color:rgb(185, 190, 196);
+    padding-bottom: 2%;
+}
+
+h3{
+    font-display: bold;
+    font-size: x-large;
+    color:rgb(162, 167, 172);
+    padding-bottom: 1%;
+}
 
 .Centering{
     text-align: center;
@@ -64,6 +78,8 @@ footer{
     text-size-adjust: medium;
     color:rgb(202, 205, 207);
     margin-top: auto;
+    overflow: auto;
+    width: 100%;
 }
 
 .NavButton{
