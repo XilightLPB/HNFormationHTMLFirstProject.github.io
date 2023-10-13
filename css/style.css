@@ -1,0 +1,226 @@
+body{
+    width:960px;
+    margin:0 auto;
+    padding:0;
+
+
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    
+    color:rgb(153, 158, 163);
+    
+    overflow:none;
+}
+
+main{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 3%;
+    
+    
+}
+
+h2{
+    font-display: bold;
+    font-size: xx-large;
+    color:rgb(185, 190, 196);
+    padding-bottom: 2%;
+}
+
+h3{
+    font-display: bold;
+    font-size: x-large;
+    color:rgb(162, 167, 172);
+    padding-bottom: 1%;
+}
+
+.Centering{
+    text-align: center;
+    align-content: center ;
+    margin-left: auto;
+    margin-right:auto;
+}
+header{
+    display: flex;
+}
+
+h1{
+    color:rgb(153, 158, 163);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3%;
+}
+
+nav{
+    display: flex;
+    
+    
+    overflow: none;
+
+}
+
+ol li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 3%;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 1%;
+    
+}
+a:link{
+    text-decoration: none;
+    color: rgb(153, 158, 163);
+    block-size: 100%;
+    min-width: 25%;
+}
+
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer{
+    background-color: rgb(29, 26, 26);;
+    text-size-adjust: medium;
+    color:rgb(202, 205, 207);
+    margin-top: auto;
+    overflow: auto;
+    width: 100%;
+}
+
+.NavButton{
+    min-width: 100%;
+    background-color:rgb(41, 37, 37);
+    text-align:center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+    padding:2px;
+    border-color: rgb(43, 43, 43);
+    border-width:1px;
+    border-style: solid;
+
+}
+
+.NavButton:hover{
+    width:105%;
+    background-color:rgb(75, 68, 68);
+    text-align: center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+    padding:2px;
+
+}
+
+.NavButton:active{
+    width:100%;
+    background-color:rgb(121, 108, 108);
+    text-align: center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+    padding:2px;
+}
+
+.DropDown{
+    width:25%;
+    background-color:rgb(41, 37, 37);
+    text-align:center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+    padding:2px;
+    position:relative;
+    border-color: rgb(43, 43, 43);
+    border-width:1px;
+    border-style: solid;
+}
+
+.DropDown:hover{
+    width:25%;
+    background-color:rgb(75, 68, 68);
+    text-align:center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+    padding:2px;
+    position:relative;
+}
+
+.DropDown-content{
+    display:none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.DropDown:hover .DropDown-content{
+    display:block;
+
+}
+.DropButton{
+    background-color:rgb(41, 37, 37);
+    text-align: center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+    padding: 2px;
+    box-sizing:border-box;
+
+}
+.DropButton:hover{
+    background-color:rgb(75, 68, 68);
+    text-align: center;
+    color:rgb(153, 158, 163);
+    height: fit-content;
+    padding: 2px;
+    box-sizing:border-box;
+}
+
+.Linked{
+    text-decoration: underline;
+    color: inherit;
+}
+
+input[type=submit] {
+    
+    max-width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 2% 15%;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .UpcomingEvents{
+    margin:5%;
+    border-bottom: black;
+    border-bottom-width: 1%;
+    border-bottom-style:solid ;
+    padding-bottom: 10%;
+    text-align: right;
+
+  }
+  .PastEvents{
+    padding-top:5%;
+    margin:5%;
+    border-bottom: black;
+    border-bottom-width: 1%;
+    border-bottom-style:solid ;
+    padding-bottom: 5%;
+    text-align: left;
+
+  }
+
+
+  table, th, td {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right:auto;
+  }
