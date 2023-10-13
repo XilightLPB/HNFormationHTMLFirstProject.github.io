@@ -1,10 +1,15 @@
 body{
+    width:960px;
+    margin:0 auto;
+    padding:0;
+
+
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-    background: linear-gradient(180deg, rgb(29, 26, 26),rgb(54, 52, 52) );
+    
     color:rgb(153, 158, 163);
-    margin:0px;
+    
     overflow:none;
 }
 
@@ -46,7 +51,8 @@ h1{
 
 nav{
     display: flex;
-    flex-wrap: nowrap;
+    
+    
     overflow: none;
 
 }
