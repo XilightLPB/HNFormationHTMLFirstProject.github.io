@@ -38,6 +38,8 @@ h3{
 .Centering{
     text-align: center;
     align-content: center ;
+    margin-left: auto;
+    margin-right:auto;
 }
 header{
     display: flex;
@@ -214,4 +216,11 @@ input[type=submit] {
     padding-bottom: 5%;
     text-align: left;
 
+  }
+
+
+  table, th, td {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right:auto;
   }
